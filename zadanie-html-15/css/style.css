@@ -49,32 +49,40 @@
     width: 200px;
 }
 
-/*trzem kwadratom poniżej dałem tymczasowe kolory tła, żebym wiedział, gdzie są, bo nie widać ich ramek :) */
+/* Nie wiem dlaczego, ale kwadraty, które powinny być w sekcji Portfolio, są nieposłuszne i ulokowały się na stronie po swojemu :) */
+
 .first-square {
     height: 200px;
     width: 200px;
     position: absolute;
     top: 0;
-    border-color: black;
+    border: 2px solid black;
     border-width: 5px;
-    background-color: blue;
+    
 }
     
 .second-square {
     height: 200px;
     width: 200px;
     position: absolute;
-    border-color: darkblue;
-    border-width: 5px;
-    background-color: magenta;
+    border: 2px solid darkblue;
+    
     }
 
 .third-square {
     height: 200px;
     width: 200px;
     position: absolute;
-    border-color: saddlebrown;
-    border-width: 5px;
+    border: 2px solid saddlebrown;
     bottom: 0;
-    background-color: darkgoldenrod;
+    
+}
+
+
+button {
+	background-color: yellow;
+	color: #000;
+	font-size: 1.3em;
+	border: none;
+	
 }
