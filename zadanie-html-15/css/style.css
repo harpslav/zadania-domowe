@@ -7,6 +7,7 @@
   width: 800px;
   background-color: transparent;
   position: relative;
+
 }
 
 .red-square {
@@ -43,38 +44,48 @@
 }
 
 .container {
-    background-color: grey
+   
+    display: block;    
     position: relative;
-    height: 600px;
+    height: 620px;
     width: 200px;
+    
 }
 
-/* Nie wiem dlaczego, ale kwadraty, które powinny być w sekcji Portfolio, są nieposłuszne i ulokowały się na stronie po swojemu :) */
+
 
 .first-square {
+    
     height: 200px;
     width: 200px;
     position: absolute;
     top: 0;
-    border: 2px solid black;
-    border-width: 5px;
+    border: 5px solid red;
+    
     
 }
     
+
 .second-square {
+  
     height: 200px;
     width: 200px;
     position: absolute;
-    border: 2px solid darkblue;
+    border: 5px solid yellow;
+    top: 210px;
     
+   
     }
 
+
 .third-square {
+    
     height: 200px;
     width: 200px;
     position: absolute;
-    border: 2px solid saddlebrown;
-    bottom: 0;
+    border: 5px solid pink;
+    top: 420px;
+    
     
 }
 
