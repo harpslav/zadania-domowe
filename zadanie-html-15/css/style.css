@@ -35,10 +35,46 @@
 }
 
 .pink-square {
-     background-color: pink;
+    background-color: pink;
     height: 200px;
     width: 200px;
     position: absolute;
-    right: 0;
+    right: 0;   
+}
+
+.container {
+    background-color: grey
+    position: relative;
+    height: 600px;
+    width: 200px;
+}
+
+/*trzem kwadratom poniżej dałem tymczasowe kolory tła, żebym wiedział, gdzie są, bo nie widać ich ramek :) */
+.first-square {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    border-color: black;
+    border-width: 5px;
+    background-color: blue;
+}
     
+.second-square {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-color: darkblue;
+    border-width: 5px;
+    background-color: magenta;
+    }
+
+.third-square {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-color: saddlebrown;
+    border-width: 5px;
+    bottom: 0;
+    background-color: darkgoldenrod;
 }
