@@ -1,0 +1,99 @@
+.blue {
+    background-color: blue;
+}
+
+.box {
+  height: 200px;
+  width: 800px;
+  background-color: transparent;
+  position: relative;
+
+}
+
+.red-square {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+   
+}
+
+.yellow-square {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 50%;
+}
+
+.green-square {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 25%;
+}
+
+.pink-square {
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0;   
+}
+
+.container {
+   
+    display: block;    
+    position: relative;
+    height: 620px;
+    width: 200px;
+    
+}
+
+
+
+.first-square {
+    
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    border: 5px solid red;
+    
+    
+}
+    
+
+.second-square {
+  
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border: 5px solid yellow;
+    top: 210px;
+    
+   
+    }
+
+
+.third-square {
+    
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border: 5px solid pink;
+    top: 420px;
+    
+    
+}
+
+
+button {
+	background-color: yellow;
+	color: #000;
+	font-size: 1.3em;
+	border: none;
+	
+}

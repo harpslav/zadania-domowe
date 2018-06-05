@@ -3,97 +3,67 @@
 }
 
 .box {
-  height: 200px;
-  width: 800px;
-  background-color: transparent;
-  position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+    padding-bottom: 50px;
+}
 
+.square {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
 }
 
 .red-square {
     background-color: red;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 0;
-   
+    display: inline-block;
 }
 
 .yellow-square {
     background-color: yellow;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    right: 50%;
+    display: inline-block;
 }
 
 .green-square {
     background-color: green;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    right: 25%;
+    display: inline-block;
 }
 
 .pink-square {
     background-color: pink;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    right: 0;   
+    display: inline-block;
 }
 
 .container {
-   
-    display: block;    
-    position: relative;
-    height: 620px;
+
+    display: block;
+    height: 100vh;
     width: 200px;
-    
+    padding-bottom: 50px;
 }
 
 
 
-.first-square {
-    
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 0;
-    border: 5px solid red;
-    
-    
+.first-square { 
+    border: 5px dashed red;
 }
-    
+
 
 .second-square {
-  
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    border: 5px solid yellow;
-    top: 210px;
-    
-   
-    }
+    border: 5px double yellow;
+}
 
 
 .third-square {
-    
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    border: 5px solid pink;
-    top: 420px;
-    
-    
+    border: 5px groove pink;    
 }
 
 
 button {
-	background-color: yellow;
-	color: #000;
-	font-size: 1.3em;
-	border: none;
-	
+    background-color: yellow;
+    color: #000;
+    font-size: 1.3em;
+    border: none;
+
 }
