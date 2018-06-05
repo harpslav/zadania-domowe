@@ -1,0 +1,29 @@
+body {
+background-color: black;
+margin: 0;
+}
+
+h1 {
+color: white;
+background-color: grey;
+}
+
+div.box {
+background-color: grey;
+width: 50%;
+padding-left: 35px;
+padding: 35px;
+    
+/*position: center;*/
+margin: auto;
+
+    
+}
+
+div.square {
+background-color: darkorange;
+display: block;
+width: 300px;
+height: 300px;
+margin-top: 20px;
+}
