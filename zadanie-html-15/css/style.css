@@ -13,6 +13,7 @@
     height: 200px;
     width: 200px;
     margin: 20px;
+    
 }
 
 .red-square {
@@ -35,12 +36,11 @@
     display: inline-block;
 }
 
-.container {
-
-/*    display: block; NIEPOTRZEBNE - WŁAŚCIWOŚĆ DOMYŚLNA */
-/*    height: 100vh; NIEPOTRZEBNE :) */
+.vertical {
+    height: auto;
     width: 200px;
-    padding-bottom: 50px;
+    
+ 
 }
 
 
