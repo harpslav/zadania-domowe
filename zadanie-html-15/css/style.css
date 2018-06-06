@@ -37,8 +37,8 @@
 
 .container {
 
-    display: block;
-    height: 100vh;
+/*    display: block; NIEPOTRZEBNE - WŁAŚCIWOŚĆ DOMYŚLNA */
+/*    height: 100vh; NIEPOTRZEBNE :) */
     width: 200px;
     padding-bottom: 50px;
 }
