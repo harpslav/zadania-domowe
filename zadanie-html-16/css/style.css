@@ -22,7 +22,7 @@ margin: auto;
 
 div.square {
 background-color: darkorange;
-display: block;
+/*display: block; NIEPOTRZEBNE - BLOKOWE Z AUTOMATU*/
 width: 300px;
 height: 300px;
 margin-top: 20px;

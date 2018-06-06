@@ -1,0 +1,43 @@
+body {
+background-color: black;
+margin: 0;
+}
+
+
+div.box {
+background-color: white;
+width: 50%;
+padding: 55px;    
+margin: auto;
+
+    
+}
+
+div.square {
+background-color: black;
+position: 50%;
+width: 300px;
+height: 300px;
+margin: auto;
+margin-top: 20px;
+}
+
+div.one
+{
+opacity: 1;
+}
+
+div.two
+{
+opacity: 0.75;
+}
+
+div.three
+{
+opacity: 0.5;
+}
+
+div.four
+{
+opacity: 0.25;
+}
