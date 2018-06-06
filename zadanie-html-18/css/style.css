@@ -1,23 +1,25 @@
 
+* {
+    background-color: antiquewhite;
+}
+
 h1 {
     color: red;
 }
 
+p {
+     font-size: 1.5em;
+    
+}
 p.brown {
     color: brown;
-    padding: 50 px 50 px;
-    font-size: 3 em;
+    padding: 50px 50px;
+   
 }
 
 p.darkblue {
     color: darkblue;
-    margin-left: 40 px;
+    margin-left: 40px;
 
-    /*   Dlaczego dla tekstu paragrafów nie działa tutaj deklaracja właściwości wielkości czcionki, ani wielkości marginesu ani padding? */
+   
 
-}
-
-* {
-    background-color: antiquewhite;
-}
-/* dlaczego dodanie tego background-color na początku powodowało czarny (domyślny?) kolor tekstu obok pożądanej zmiany  koloru tła? */
