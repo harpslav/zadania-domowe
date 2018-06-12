@@ -15,7 +15,6 @@ div.box {
     background-color: white;
     width: 650px;
     height: 650px;
-    position: relative;
     margin: auto;
     
      }  
@@ -33,44 +32,45 @@ div.square {
   }  
 
 
-div.square1 {
+div.square1, div.circle5 {
     background-color: red;
 }
 
-div.square2 {
+div.square2, div.circle6 {
     background-color: blue;
 }
 
-div.square3 {
+div.square3, div.circle4 {
     background-color: green;
 }
 
-div.square4 {
+div.square4, div.circle8 {
     background-color: yellow;
 }
 
-div.square5 {
+div.square5, div.circle9 {
     background-color: black;
 }
 
-div.square6 {
+div.square6, div.circle7 {
     background-color: orange;
 }
 
-div.square7 {
+div.square7, div.circle3 {
     background-color: darkviolet;
 }
 
 
-div.square8 {
+div.square8, div.circle2 {
     background-color: grey;
 }
 
 
-div.square9 {
+div.square9, div.circle1 {
     background-color: pink;
 }
 
+/*
 div.circle {
     width: 100px;
     height: 100px;
@@ -81,31 +81,12 @@ div.circle {
     top: 50%;
     transform: translate(0%,-50%);
 }
+*/
+div.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;   
+}
 
-div.circle1 {
-    background-color: pink;
-}
-div.circle2 {
-    background-color: gray;
-}
-div.circle3 {
-    background-color: darkviolet;
-}
-div.circle4 {
-    background-color: green;
-}
-div.circle5 {
-    background-color: red;
-}
-div.circle6 {
-    background-color: blue;
-}
-div.circle7 {
-    background-color: orange;
-}
-div.circle8 {
-    background-color: yellow;
-}
-div.circle9 {
-    background-color: black;
-}
