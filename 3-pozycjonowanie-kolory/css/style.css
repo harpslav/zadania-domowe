@@ -13,11 +13,11 @@ body {background-color: black
 
 div.box {
     background-color: white;
-    width: 650px;
-    height: 650px;
+    width: 610px;
+    height: 610px;
+    padding: 5px;
     margin: auto;
-    
-     }  
+}  
     
 
 div.square {
@@ -26,10 +26,7 @@ div.square {
     background-color: white;    
     position: relative;
     display: inline-block;
-    margin: auto;
-    top: 50%;
-    transform: translate(0%,-50%);
-  }  
+}  
 
 
 div.square1, div.circle5 {
@@ -70,7 +67,6 @@ div.square9, div.circle1 {
     background-color: pink;
 }
 
-/*
 div.circle {
     width: 100px;
     height: 100px;
@@ -81,7 +77,7 @@ div.circle {
     top: 50%;
     transform: translate(0%,-50%);
 }
-*/
+/*
 div.circle {
     width: 100px;
     height: 100px;
@@ -89,4 +85,5 @@ div.circle {
     border-radius: 50%;
     position: absolute;   
 }
+*/
 
