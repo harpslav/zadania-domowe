@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    color: black;
+    font-size: 
+}
+#main-header {
+    display: inline-block;
+}
+
+div.header-content {
+    text-align: center;
+}
+
+
+.header-content {
+    text-transform: uppercase;
+}
+
+.header-content h1 {
+    font-size: 2em;
+}
+
+.header-content span {
+    font-size: 1.5em;
+}
