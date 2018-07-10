@@ -1,24 +1,50 @@
+/* Responsive Styles Start */
 
-@media (max-width: 991px)  {
-    .header-small figure  {
-    width: 100%;
-    height: 50vh;
+
+@media all and (max-width: 1170px) {
+    #main-header {
+    background-image: url(../obrazy/man-2.jpg);
+    height: 66vh;
+    max-width: 1170px;
+    }    
+    #main-header .header-content {
+        text-align: left;
+        position: relative;
+        top: 25%;
+        padding-left: 55%;
+        
     }
-    .header-small figure img {
-	width: 100%;
-}
     
-
-
-@media (min-width: 992px) and (max-width: 1170px) {
-    .header-small figure img  {
-        display: none;
+    #main-header .header-content > h1 {
+        font-size: 2rem;
+        font-weight: 700;
     }
+
+    #main-header .header-content > h2 {
+        font-size: 2.3rem;
+         font-weight: 700;
+    }
+
 }    
 
-@media (min-width: 1171px) and (max-width: 992px) {
-   .header-small figure img  {
-        display: none;
-    }
-}    
 
+@media all and (max-width: 991px) {
+    #main-header {
+        background-image: url(../obrazy/man-1.jpg);
+        height: 50vh;
+        background-size: cover;
+        max-width: 991px;
+        color: #000;
+       
+    }    
+    
+    #main-header .header-content  {
+        position: relative;
+        margin: auto;
+        text-align: center;
+        padding-top: 50vh;
+        padding-left: 0px;
+    }
+    
+    
+}   
